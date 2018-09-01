@@ -1,0 +1,45 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+#main {
+    width: 15%;
+    margin: 0 auto;
+    margin-top: 200px;
+}
+
+input[type=button] {
+    width: 60px;
+    height: 60px;
+    font-size: 18px;
+    border: none;
+    background-color: rgba(200,200,200,0.5);
+}
+
+input[type=button]:hover {
+    background-color: rgba(100,100,100,0.7);
+    cursor: pointer;
+}
+
+#inputWindow {
+    width: 255px;
+    font-size: 18px;
+    padding: 10px;
+}
+
+#equals {
+    background-color: rgba(70,70,250,0.7);
+}
+
+#equals:hover {
+    background-color: rgba(70,70,250,0.9);
+}
+
+#clear {
+    background-color: rgba(255,150,0, 0.7);
+}
+
+#clear:hover {
+    background-color: rgba(255,150,0, 0.9)
+}
